@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    font: bold 40px tahoma;
+    text-shadow: 4px 4px rgb(228, 149, 93);
+
+} 
+
+header,section,footer,nav,aside,article,hgroup{
+    display:block;
+}
+
+body{
+    text-align:left;  
+    background:rgb(211, 156, 5);
+}
+
+#box{
+    width: 1000px;
+    margin: 10px auto;
+    display:-webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex:1 ;  
+    background-color: rgb(240, 128, 36);
+    border-radius: 50%;
+   
+}
+
+header{
+    background:rgb(218, 235, 232);
+    color: rgb(119, 38, 5);
+    padding:20px; 
+    
+}
+#main_nav{
+    background:black;
+    color: blanchedalmond;
+  
+}
+#main_nav ul{
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+#main_nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font:bold 14px;
+    border:2px solid #bbb;
+}
+#main_nav a
+{
+    display: block;
+    color: blanchedalmond;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#main_nav a:hover{
+   background-color:rgba(83, 22, 6, 0.781);
+    
+}
+hgroup{
+    background-color: rgb(250, 243, 243);
+    COLOR:rgb(14, 13, 13);
+    padding:10px;
+    font:16px;
+    font-style: italic;
+    position: relative;
+    margin:5px 0px;
+    text-decoration: underline;
+}
+#first{
+  
+    
+    text-align: left;
+   
+}
+#img{
+    size: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+#box-2{
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    background-color: rgb(253, 252, 251);
+   
+    
+}
+#main{
+    -webkit-box-flex:1 ;
+    margin: 10px;
+    padding:20px;
+    border-radius: 3%;
+    background-color: rgb(2, 8, 39);
+    color:rgb(240, 238, 238);
+}
+#side{
+    width:220px;
+    margin:20px 10px;
+    padding:30px;
+    background:rgb(2, 8, 39);
+    color: white;
+   
+   
+    
+}
+footer{
+    background: rgba(2, 8, 39,0.5);
+    color: white;
+    text-align:center;
+    padding:20px;
+    
+
+    
+ 
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 1px;
+  }
+  
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.row {
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    background-color: rgb(253, 252, 251);
+
+}
+.active {
+    background-color: #6b0b0b68;
+  }
